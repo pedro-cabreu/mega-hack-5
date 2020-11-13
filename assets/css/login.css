@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(180deg, #00A868 0%, #356270 100%)no-repeat padding-box;
+
+    color: #fff;
+}
+
+button{
+    border: none;
+}
+
+.main-wrapper{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 800px;
+    /* border: #fff solid 1px; */
+    box-shadow: 7px 7px 24px #00000029;
+    border-radius: 25px;
+}
+
+.login-form{
+
+    border-radius: 0px 25px 25px 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+::placeholder{
+    opacity: 1;
+}
+
+form{
+    margin-top: 30px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.login-form input{
+
+    border: none;
+    color:  #00A868;
+    /* height: 60px; */
+    /* border: #00a868 1px solid; */
+    font-size: 24px;
+    width: 100%;
+    padding: 10px
+}
+
+#email-field, #pass-field{
+    
+    margin-top: 15px;
+    border: #00a868 1px solid;
+    display: flex;
+    border-radius: 8px;
+}
+
+#email-field img, #pass-field img{
+
+    margin-left: 10px;
+}
+
+#email{
+
+    color: rgb(44, 44, 44);
+    border-radius: 8px;
+}
+
+#password{
+    
+    color: rgb(44, 44, 44);
+    border-radius: 8px;
+}
+
+.login-image{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.illustration{
+
+    width: 70%;
+}
+
+#logo{
+
+    margin-top: 100px;
+    width: 300px;
+}
+
+#btn-mobile{
+
+    font-family: 'Raleway';
+    width: 100%;
+    padding: 2vh;
+    border-radius: 25px;
+    background-color: #00A868;
+    color: #fff;
+    font-size: 16px;
+}
+
+.password-things{
+
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* color: #00A868; */
+    text-decoration: none;
+    margin-top: 30px;
+    width: 65%;
+    /* border: red 1px solid; */
+}
+
+#remember{
+
+    display: flex;
+}
+
+#forgot{
+
+    color: #00A868;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.buttons{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 57%;
+    margin-top: 50px;
+}
+
+#btn-login{
+
+    padding: 13px;
+    font-size: 20px;
+    width: 49%;
+    color: #eee;
+    border-radius: 8px;
+    background-color: #00A868;
+}
+
+#btn-sign{
+
+    padding: 13px;
+    font-size: 20px;
+    width: 49%;
+    color: #00A868;
+    border-radius: 8px;
+    background-color: transparent;
+    border: #00A868 1px solid;
+}
+
+.social-login{
+
+    margin-top: 20px;
+    font-size: 24px;
+    color: #00A868;
+}
+
+#net{
+
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* The container */
+.container {
+    color: rgb(44, 44, 44);
+    /* font-size: 16px; */
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #00A868;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
