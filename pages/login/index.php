@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
-    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="shortcut icon" href="../assets/images/logo.svg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/a53009ca2f.js" crossorigin="anonymous"></script>
 
@@ -15,24 +15,24 @@
         <div class="login-box">
             <div class="login-image">
                 <div class="text-baloon">
-                    <img id="baloon" src="../assets/images/baloon.svg" alt="" srcset="">
+                    <img id="baloon" src="../../assets/images/baloon.svg" alt="" srcset="">
                 </div>
                 <div class="illustration">
-                    <img src="../assets/images/finance_app.svg" alt="" srcset="">
+                    <img src="../../assets/images/finance_app.svg" alt="" srcset="">
                 </div>
                 <div class="button">
                     <button id="btn-mobile">Acesse também pelo celular</button>
                 </div>
             </div>
             <div class="login-form">
-                <img id="logo" src="../assets/images/orama.jpg" alt="">
+                <img id="logo" src="../../assets/images/orama.jpg" alt="">
                 <form action="">
                     <div id="email-field">
-                        <img src="../assets/images/mail.svg" alt="">
+                        <img src="../../assets/images/mail.svg" alt="">
                         <input placeholder="exemplo@orama.com.br" type="email" name="" id="email">
                     </div>
                     <div id="pass-field">
-                        <img src="../assets/images/key.svg" alt="">
+                        <img src="../../assets/images/key.svg" alt="">
                         <input placeholder="Senha" type="password" name="" id="password">
                     </div>
                 </form>

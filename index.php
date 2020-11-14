@@ -52,7 +52,7 @@
         $('#btn-login').click(function (e) { 
             e.preventDefault();
 
-            window.location.href = "/mega-hack-5/pages/login.php";
+            window.location.href = "/mega-hack-5/pages/login/";
         });
     </script>
 </body>
