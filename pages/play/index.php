@@ -16,7 +16,7 @@
             </div>
             <div class="nav-buttons">
                 <i class="fas fa-envelope"></i>
-                <i class="fas fa-home"></i>
+                <i id="selected" class="fas fa-home"></i>
                 <i class="far fa-calendar"></i>
                 <i class="far fa-clock"></i>
             </div>
@@ -63,13 +63,23 @@
                     <i class="fas fa-arrow-right"></i>
                 </div>
                 <div class="question-title">
-                    <h2>Inflação x Poupança <span id=value-question><i class="fas fa-coins"></i> 25</span></h2>
+                    <h2 id="title-quest">Inflação x Poupança <span id=value-question><i class="fas fa-coins"></i> 25</span></h2>
                 </div>
                 <div class="question-video">
-                    <embed type="video/webm" src="../../assets/videos/1.mp4" width="82%" height="100%"> 
+                    <embed id="video" type="video/webm" src="../../assets/videos/1.mp4" width="82%" height="100%">
+                    <div id="question-body" style="display: none;">
+                        <h3>Parabéns! Você cumpriu sua primeira trilha de aprendizagem! Que tal validar seus conhecimentos respondendo algumas questões?</h3>
+                        <h4>Questão 1</h4>
+                        <h3>O que é inflação?</h3>
+                        <div class="alternativas">
+                            <div class="alt">É um índice que mede o quanto os bolos desvalorizam de preço.</div>
+                            <div class="alt">É um número que indica o aumento percentual médio dos preços.</div>
+                            <div class="alt">É um número que mostra o quanto vou ganhar investindo na poupança.</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="question-buttons">
-                    <button>Próxima Fase <i class="fas fa-arrow-right"></i></button>
+                    <button id="btn-question" type="button">Próxima Fase <i class="fas fa-arrow-right"></i></button>
                 </div>
                 <div class="question-description">
                     <p>Sabia que você está ficando mais pobre todos os dias mesmo tendo seu dinheiro rendendo mensalmente na poupança?</p>
@@ -80,7 +90,7 @@
                     737 <i class="fas fa-coins"></i>
                 </div>
                 <div class="user-friends">
-                    <a href="">Consultar Ranking</a><br>
+                    <a href="../profile">Consultar Ranking</a><br>
                     <img src="../../assets/images/avatars/1.jpeg" alt=""><br>
                     <img src="../../assets/images/avatars/2.jpeg" alt=""><br>
                     <img src="../../assets/images/avatars/3.jpeg" alt=""><br>
@@ -94,5 +104,8 @@
        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../../assets/js/script.js"></script>
+    
 </body>
 </html>

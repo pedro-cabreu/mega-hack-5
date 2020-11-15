@@ -17,10 +17,8 @@
             </div>
             <div class="navbar">
                 <a href="">órama gaming</a>
-                <a href="">site</a>
                 <a href="">sobre</a>
                 <a href="">contato</a>
-                <a href="">sair</a>
             </div>
             <div class="login">
                 <button id="btn-login-nav" href="">LOGIN</button>
